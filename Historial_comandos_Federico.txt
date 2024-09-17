@@ -1,0 +1,116 @@
+halt
+vagrant halt
+exit
+ls -l
+cd repogit/
+ls -la
+ssh -T git@github.com
+ssh-keygen --help
+ssh-keygen -t ed25519
+ssh-keygent -t ed25519
+ls -la .ssh/
+cat .ssh/id_ed25519.pub 
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:FedeCamejo/TP_AySO.git
+ls -l
+git status
+cd TP_AySO/
+ls -l
+git status
+touch archivo
+ls -l
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+fede-camejo@hotmail.com FedeCamejo
+git config --global user.name "FedeCamejo"
+git status
+git push
+echo hola > unarchivo
+ls -l
+cat unarchivo 
+echo hola >> unarchivo
+cat unarchivo
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git push
+git status
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add . 
+git status
+git config --global user.email "fede-camejo@hotmail.com"
+git config --global user.name "FedeCamejo"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+git add .
+git status
+grep "model name" head -n1 
+grep "model name" /proc/cpuinfo | head -n1
+cat datos_usuario.txt 
+git commit -m "feat: Añadiendo informacion de CPU"
+git add .
+git status
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+ls
+cat lista_ordenada 
+git add .
+git commit -m "add: Listado de usuarios ordenada"
+git add .
+echo "El comando que se utiliza para realizar es tpcdump." > comando_dump_net
+ls
+echo "-w (archivo): Guarda la captura en un archivo para ser analizada mas tarde." >> comando_dump_net 
+cat comando_dump_net 
+git add .
+ls
+git commit -m “add: Comando para Capturar y analizar el tráfico de red ”
+git commit -m “add: Comando para Capturar y analizar el tráfico de red”
+git add .
+git commit -m “add: Comando para Capturar y analizar el tráfico de red ”
+git commit -m “add: comando para capturar y analizar el tráfico de red ”
+git add . 
+ls 
+git commit -m “add: Comando para Capturar y analizar el tráfico de red ”
+git add .
+git commit -m “add: comando para capturar y analizar el tráfico de red ”
+cat comando_dump_net 
+git add . 
+cat <<EOF>> README.md
+Alumno: Federico Camejo Faguaga
+Divison: 318 
+Turno: Noche 
+EOF
+
+cat README.md 
+git add . 
+git commit -m "docs: informacion de alumno, division y turno al README."
+rm -r comando_dump_net 
+ls
+echo "El comando tpcdump es el adecuado para realizar un dump traffic" >> comando_dump_net
+echo "-w (archivo): Guarda la captura en un archivo para ser analizada mas tarde." >> comando_dump_net
+git add .
+git commit -m “add: Comando para Capturar y analizar el tráfico de red ”
+git commit -m “add: comando para capturar y analizar el tráfico de red ”
+rm -r comando_dump_net 
+echo "-w (archivo): Guarda la captura en un archivo para ser analizada mas tarde." >> comando_dump_net
+git commit -m “add: Comando para Capturar y analizar el tráfico de red ”
+git add .
+cat comando_dump_net 
+git commit -m “add:comando para capturar y analizar el tráfico de red”
+history -a
